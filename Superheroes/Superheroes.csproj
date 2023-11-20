@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>shield.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arrow.png" />
+    <None Remove="avengers.png" />
+    <None Remove="xmen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="shield.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="arrow.png" />
+    <Resource Include="avengers.png" />
+    <Resource Include="xmen.png" />
+  </ItemGroup>
+
+</Project>
