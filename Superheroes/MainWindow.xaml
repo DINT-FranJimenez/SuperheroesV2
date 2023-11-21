@@ -121,9 +121,9 @@
                         HorizontalAlignment="Right">
                 <Image 
                    x:Name="xGrupoVengador"  
-                   Margin="0,0,40,0"
-                   Width="80"
-                   Height="90"
+                   Margin="0,0,20,0"
+                   Width="50"
+                   Height="50"
                    Style="{StaticResource ximagenSuperAvenger}" 
                    Source="/avengers.png"
                     
@@ -132,8 +132,8 @@
                    x:Name="Mutante"
                    DockPanel.Dock="Right"
                    Margin="0,0,30,0"
-                   Width="80"
-                   Height="90"
+                   Width="60"
+                   Height="60"
                     Style="{StaticResource ximagenSuperXmen}"
                     Source="/xmen.png"
                    />
